@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     22341,        528]
-NotebookOptionsPosition[     17620,        440]
-NotebookOutlinePosition[     18025,        457]
-CellTagsIndexPosition[     17982,        454]
+NotebookDataLength[     33378,        752]
+NotebookOptionsPosition[     28208,        656]
+NotebookOutlinePosition[     28613,        673]
+CellTagsIndexPosition[     28570,        670]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -435,6 +435,222 @@ Cell[BoxData[
  CellChangeTimes->{3.8144303522478*^9},
  CellLabel->"Out[2]=",ExpressionUUID->"07b0953f-1e93-47b4-bba5-64277b4b0132"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mathematica\:306eURL\:30a2\:30af\:30bb\:30b9", "Section",
+ CellChangeTimes->{{3.813484328551013*^9, 3.813484355180594*^9}, {
+  3.813484904131537*^9, 3.813484940882365*^9}, {3.8144295865045633`*^9, 
+  3.814429592145117*^9}, {3.814607212047957*^9, 
+  3.8146072474273367`*^9}},ExpressionUUID->"8f59db69-736c-4106-8ebf-\
+44057ca45744"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"URLRead", "[", 
+  RowBox[{"\"\<https://api.github.com/users/kouamano\>\"", ",", "All"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.814606525053458*^9, 3.814606542492709*^9}, 
+   3.814606880018257*^9, {3.8146069546210213`*^9, 3.814606986335216*^9}, {
+   3.814607084766831*^9, 3.814607096961385*^9}, {3.8146072801074266`*^9, 
+   3.814607314710404*^9}, {3.814607458702437*^9, 3.8146074615821943`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"52918395-fb6f-44a2-909a-8efe29996029"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"StatusCode\"\>", "\[Rule]", "200"}], ",", 
+   RowBox[{"\<\"Headers\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\<\"date\"\>", 
+       "\[Rule]", "\<\"Tue, 17 Nov 2020 13:11:38 GMT\"\>"}], ",", 
+      RowBox[{"\<\"content-type\"\>", 
+       "\[Rule]", "\<\"application/json; charset=utf-8\"\>"}], ",", 
+      RowBox[{"\<\"server\"\>", "\[Rule]", "\<\"GitHub.com\"\>"}], ",", 
+      RowBox[{"\<\"status\"\>", "\[Rule]", "\<\"200 OK\"\>"}], ",", 
+      RowBox[{"\<\"cache-control\"\>", 
+       "\[Rule]", "\<\"public, max-age=60, s-maxage=60\"\>"}], ",", 
+      RowBox[{"\<\"vary\"\>", 
+       "\[Rule]", "\<\"Accept, Accept-Encoding, Accept, X-Requested-With, \
+Accept-Encoding\"\>"}], ",", 
+      RowBox[{"\<\"etag\"\>", 
+       "\[Rule]", \
+"\<\"W/\\\"33b15f97f5b02df5a0f427d5629d8f3226942e527b4198e007df05a6ec825680\\\
+\"\"\>"}], ",", 
+      RowBox[{"\<\"last-modified\"\>", 
+       "\[Rule]", "\<\"Tue, 17 Nov 2020 12:47:48 GMT\"\>"}], ",", 
+      RowBox[{"\<\"x-github-media-type\"\>", 
+       "\[Rule]", "\<\"github.v3; format=json\"\>"}], ",", 
+      RowBox[{"\<\"access-control-expose-headers\"\>", 
+       "\[Rule]", "\<\"ETag, Link, Location, Retry-After, X-GitHub-OTP, \
+X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, \
+X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, \
+X-GitHub-Media-Type, Deprecation, Sunset\"\>"}], ",", 
+      RowBox[{"\<\"access-control-allow-origin\"\>", "\[Rule]", "\<\"*\"\>"}],
+       ",", 
+      RowBox[{"\<\"strict-transport-security\"\>", 
+       "\[Rule]", "\<\"max-age=31536000; includeSubdomains; preload\"\>"}], 
+      ",", 
+      RowBox[{"\<\"x-frame-options\"\>", "\[Rule]", "\<\"deny\"\>"}], ",", 
+      RowBox[{"\<\"x-content-type-options\"\>", 
+       "\[Rule]", "\<\"nosniff\"\>"}], ",", 
+      RowBox[{"\<\"x-xss-protection\"\>", 
+       "\[Rule]", "\<\"1; mode=block\"\>"}], ",", 
+      RowBox[{"\<\"referrer-policy\"\>", 
+       "\[Rule]", "\<\"origin-when-cross-origin, \
+strict-origin-when-cross-origin\"\>"}], ",", 
+      RowBox[{"\<\"content-security-policy\"\>", 
+       "\[Rule]", "\<\"default-src 'none'\"\>"}], ",", 
+      RowBox[{"\<\"content-encoding\"\>", "\[Rule]", "\<\"gzip\"\>"}], ",", 
+      RowBox[{"\<\"x-ratelimit-limit\"\>", "\[Rule]", "\<\"60\"\>"}], ",", 
+      RowBox[{"\<\"x-ratelimit-remaining\"\>", "\[Rule]", "\<\"35\"\>"}], ",", 
+      RowBox[{"\<\"x-ratelimit-reset\"\>", "\[Rule]", "\<\"1605620734\"\>"}], 
+      ",", 
+      RowBox[{"\<\"x-ratelimit-used\"\>", "\[Rule]", "\<\"25\"\>"}], ",", 
+      RowBox[{"\<\"accept-ranges\"\>", "\[Rule]", "\<\"bytes\"\>"}], ",", 
+      RowBox[{"\<\"transfer-encoding\"\>", "\[Rule]", "\<\"chunked\"\>"}], 
+      ",", 
+      RowBox[{"\<\"x-github-request-id\"\>", 
+       "\[Rule]", "\<\"D803:6B5B:266A0A:3279E1:5FB3CBE6\"\>"}]}], "}"}]}], 
+   ",", 
+   RowBox[{"\<\"Body\"\>", 
+    "\[Rule]", \
+"\<\"{\\\"login\\\":\\\"kouamano\\\",\\\"id\\\":1446398,\\\"node_id\\\":\\\"\
+MDQ6VXNlcjE0NDYzOTg=\\\",\\\"avatar_url\\\":\\\"https://avatars2.\
+githubusercontent.com/u/1446398?v=4\\\",\\\"gravatar_id\\\":\\\"\\\",\\\"url\\\
+\":\\\"https://api.github.com/users/kouamano\\\",\\\"html_url\\\":\\\"https://\
+github.com/kouamano\\\",\\\"followers_url\\\":\\\"https://api.github.com/\
+users/kouamano/followers\\\",\\\"following_url\\\":\\\"https://api.github.com/\
+users/kouamano/following{/other_user}\\\",\\\"gists_url\\\":\\\"https://api.\
+github.com/users/kouamano/gists{/gist_id}\\\",\\\"starred_url\\\":\\\"https://\
+api.github.com/users/kouamano/starred{/owner}{/repo}\\\",\\\"subscriptions_\
+url\\\":\\\"https://api.github.com/users/kouamano/subscriptions\\\",\\\"\
+organizations_url\\\":\\\"https://api.github.com/users/kouamano/orgs\\\",\\\"\
+repos_url\\\":\\\"https://api.github.com/users/kouamano/repos\\\",\\\"events_\
+url\\\":\\\"https://api.github.com/users/kouamano/events{/privacy}\\\",\\\"\
+received_events_url\\\":\\\"https://api.github.com/users/kouamano/received_\
+events\\\",\\\"type\\\":\\\"User\\\",\\\"site_admin\\\":false,\\\"name\\\":\\\
+\"Kou AMANO\\\",\\\"company\\\":null,\\\"blog\\\":\\\"\\\",\\\"location\\\":\\\
+\"???\\\",\\\"email\\\":null,\\\"hireable\\\":null,\\\"bio\\\":null,\\\"\
+twitter_username\\\":null,\\\"public_repos\\\":48,\\\"public_gists\\\":1,\\\"\
+followers\\\":8,\\\"following\\\":11,\\\"created_at\\\":\\\"2012-02-17T11:49:\
+10Z\\\",\\\"updated_at\\\":\\\"2020-11-17T12:47:48Z\\\"}\"\>"}], ",", 
+   RowBox[{"\<\"Cookies\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"HTTPRequest\"\>", "\[Rule]", 
+    InterpretationBox[
+     RowBox[{
+      TagBox["HTTPRequest",
+       "SummaryHead"], "[", 
+      DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+       "Ready"}, 
+       TemplateBox[{
+         PaneSelectorBox[{False -> GridBox[{{
+               GraphicsBox[{
+                 RGBColor[0, 
+                  NCache[
+                   Rational[2, 3], 0.6666666666666666], 0], 
+                 DiskBox[{0, 0}], 
+                 InsetBox[
+                  FormBox[
+                   StyleBox["\"GET\"", 
+                    Directive[10, 
+                    GrayLevel[1], Bold], StripOnInput -> False], 
+                   TraditionalForm], 
+                  Scaled[{0.53, 0.48}]]}, ImageSize -> 
+                Dynamic[{
+                  Automatic, (3 CurrentValue["FontCapHeight"])/
+                   AbsoluteCurrentValue[Magnification]}], Background -> None], 
+               GridBox[{{
+                  RowBox[{
+                    TagBox["\"URL: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    TagBox[
+                    "\"https://api.github.com/users/kouamano\"", Short], 
+                    "https://api.github.com/users/kouamano"}, "HyperlinkURL"],
+                     "SummaryItem"]}]}, {
+                  RowBox[{
+                    TagBox["\"ContentType: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {
+                 "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                BaseStyle -> {
+                 ShowStringCharacters -> False, NumberMarks -> False, 
+                  PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+             GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               GraphicsBox[{
+                 RGBColor[0, 
+                  NCache[
+                   Rational[2, 3], 0.6666666666666666], 0], 
+                 DiskBox[{0, 0}], 
+                 InsetBox[
+                  FormBox[
+                   StyleBox["\"GET\"", 
+                    Directive[10, 
+                    GrayLevel[1], Bold], StripOnInput -> False], 
+                   TraditionalForm], 
+                  Scaled[{0.53, 0.48}]]}, ImageSize -> 
+                Dynamic[{
+                  Automatic, (3 CurrentValue["FontCapHeight"])/
+                   AbsoluteCurrentValue[Magnification]}], Background -> None], 
+               GridBox[{{
+                  RowBox[{
+                    TagBox["\"URL: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TemplateBox[{
+                    TagBox[
+                    "\"https://api.github.com/users/kouamano\"", Short], 
+                    "https://api.github.com/users/kouamano"}, "HyperlinkURL"],
+                     "SummaryItem"]}]}, {
+                  RowBox[{
+                    TagBox["\"ContentType: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {
+                 "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                BaseStyle -> {
+                 ShowStringCharacters -> False, NumberMarks -> False, 
+                  PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+             GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+        "SummaryPanel"],
+       DynamicModuleValues:>{}], "]"}],
+     HTTPRequest["https://api.github.com/users/kouamano", 
+      Association[]],
+     Editable->False,
+     SelectWithContents->True,
+     Selectable->False]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.814607498604541*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"74a24110-e76d-4eab-bbd5-a2e7b63b760c"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  "\"\<https://raw.githubusercontent.com/kouamano/MATH_SCRIPT/master/SCRIPTS/\
+Matrix_operations.txt\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8146068645313177`*^9, 3.814606864536024*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"7c82721a-68e7-4b38-ab88-5f77d4f5cee0"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -499,7 +715,7 @@ Cell[8119, 214, 736, 11, 58, "Text",ExpressionUUID->"37e22d1d-52df-40a6-a2f1-d9a
 Cell[8858, 227, 319, 6, 44, "Input",ExpressionUUID->"2074387b-3480-4b44-9974-57e6bfcf58cc"],
 Cell[CellGroupData[{
 Cell[9202, 237, 246, 4, 44, "Input",ExpressionUUID->"7463a4db-f3c2-41b8-b000-a77144b44303"],
-Cell[9451, 243, 399, 6, 82, "Output",ExpressionUUID->"07d9b38e-4f1f-4fcb-ba4b-3bd2c4ebcdea"]
+Cell[9451, 243, 399, 6, 34, "Output",ExpressionUUID->"07d9b38e-4f1f-4fcb-ba4b-3bd2c4ebcdea"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -528,6 +744,14 @@ Cell[CellGroupData[{
 Cell[17282, 428, 132, 2, 30, "Input",ExpressionUUID->"53665a2b-7665-43bb-8642-f11733b85530"],
 Cell[17417, 432, 163, 3, 34, "Output",ExpressionUUID->"07b0953f-1e93-47b4-bba5-64277b4b0132"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17629, 441, 337, 5, 67, "Section",ExpressionUUID->"8f59db69-736c-4106-8ebf-44057ca45744"],
+Cell[CellGroupData[{
+Cell[17991, 450, 501, 8, 44, "Input",ExpressionUUID->"52918395-fb6f-44a2-909a-8efe29996029"],
+Cell[18495, 460, 9364, 184, 856, "Output",ExpressionUUID->"74a24110-e76d-4eab-bbd5-a2e7b63b760c"]
+}, Open  ]],
+Cell[27874, 647, 306, 5, 67, "Input",ExpressionUUID->"7c82721a-68e7-4b38-ab88-5f77d4f5cee0"]
 }, Open  ]]
 }, Open  ]]
 }
